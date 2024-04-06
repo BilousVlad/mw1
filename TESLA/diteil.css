@@ -1,0 +1,519 @@
+body{
+    background: #F7F7FC;
+}
+.header{
+    background: #C5010A;
+}
+.header_panel{
+    width: 1200px;
+    padding: 32px 0;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header_panel_logo{
+    width: 135;
+    height: 26px;
+}
+.header_panel_nav_list{
+    display: flex;
+    column-gap: 32px;
+}
+.header_panel_list_item_link{
+    text-decoration: none;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+}
+.header_panel_profile{
+    display: flex;
+    align-items: center;
+    column-gap: 32px;
+
+}
+.header_panel_profile_img{
+    width: 40px;
+    height: 40px;
+}
+.header_panel_profile_btn{
+    cursor: pointer;
+    width: 150px;
+    height: 48px;
+    border: none;
+    border-radius: 8px;
+    background :#FA3C45;
+    color:  #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+}
+.header_title{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.186px;
+    padding: 120px 0;
+}
+.main{
+    width: 1200px;
+    margin: 80px auto 0 auto;
+}
+.main_page{
+    color: #000;    
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.12px;
+}
+.main_info{
+    margin-top:56px;
+    display: flex;
+    align-items: center;
+    column-gap: 444px;
+}
+.main_info_car{
+    color: #11142D;
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.24px;
+}
+.main_info_price{
+    color: #FA3C45;
+    text-align: right;
+
+    font-family: Mulish;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.24px;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 16px;
+
+}
+.container_left{
+    width: 816px;
+
+}
+.gallery{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+
+}
+.gallery_up{
+    width: 100%;
+    height: 558px;
+    background: #E2E2EA;
+    border-radius: 8px;
+    
+}
+.gallery_bottom{
+    width: 100%;
+    display: flex;
+    column-gap: 8px;
+
+
+}
+.gallery_bottom_item{
+    width: 267px;
+    height: 240px;
+    border-radius: 8px;
+    background: #E2E2EA;
+}
+.container_left_tytle{
+    padding-top:56px;
+    color: #333;
+
+
+    font-family: Mulish;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.155px;
+
+}
+.container_left_text{
+    padding-top:24px ;
+    color: #92929D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.08px;
+}
+.video{
+    height: 440px;
+    width: 816px;
+    border-radius: 8px;
+    margin-top: 56px;
+    background: #E2E2EA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.video_img{
+    width: 80px;
+    height: 80px;
+}
+.specification{
+    margin-top: 56px;
+    
+}
+.specification_title{
+    color: #333;
+    font-family: Mulish;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.155px;
+}
+.specification_list{
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 16px;
+
+}
+.specification_list_item{
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #E1E1E1;
+}
+.specification_list_item_left{
+    display: flex;
+    align-items: center;
+    column-gap:16px;
+}
+.specification_list_item_left_img{
+    width: 40px;
+    height: 40px;
+}
+.specification_list_item_left_text{
+    color: #92929D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.08px;
+}
+.specification_list_item_right{
+    color:  #11142D;
+    text-align: right;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.08px;
+}
+.feature{
+    margin-top: 56px;
+}
+.feature_title{
+    color: #333  ;
+    font-family: Mulish;
+    font-size: 31px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.155px;
+}
+.feature_list{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 24px;
+    list-style: none;
+
+}
+.feature_list_item{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+
+}
+.feature_list_text{
+    color:  #92929D ;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.08px;
+}
+.feature_list_img{
+    width: 24px;
+    height: 24px;
+}
+.offer{
+    border-radius: 8px;
+    width: 400px;
+    height: 560px;
+    background: #C5010A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.offer_wrapper{
+    width: 263px;
+}
+.offer_wrapper_title{
+    color: #FFF    ;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.195px;
+    }
+.offer_wrapper_subtitle{
+    color:  #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0.12px;
+    padding-top: 24px;
+}
+.offer_wrapper_button{
+    width: 102px;
+    height: 40px;
+    cursor: pointer;
+    border: 2px solid #FFF;
+    border-radius: 8px;
+    background: none;
+    display: block;
+    margin: 40px auto 0 auto;
+    color:  #FFF    ;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;  
+    letter-spacing: 0.08px;
+
+}
+.contactForm{
+    width: 400px;
+    height: 560px;
+    border-radius: 8px;
+    background: #FFF;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+}
+.contactForm_wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.contact_form_title{
+    color:#11142D;
+    font-family: Mulish;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.195px;
+}
+.contactForm_input{
+    width: 296px;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 32px;
+    padding-left: 13px;
+    color:  #9A9AB0 ;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+    border: 1px solid #FA3C45;
+}
+.contactForm_textarea{
+    width: 296px;
+    height: 56px;
+    border-radius: 8px;
+    margin-top: 32px;
+    padding-left: 13px;
+    padding-top: 20px;
+    resize: none;
+
+    border: 1px solid #FA3C45;
+    color:  #9A9AB0 ;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+}
+.contactForm_button{
+    width: 168px;
+    height: 56px;
+    margin-top: 40px;
+    border-radius: 8px;
+    background: #FA3C45;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+    border: none;
+}
+.profile{
+    margin-top: 16px;
+    width: 400px;
+    height: 364px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    background: #FFF;
+}
+.profile_wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.profile_wrapper_title{
+    color: #11142D;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.12px;
+}
+.profile_wrapper_img{
+    padding-top: 51px;
+    width: 80px;
+    height: 80px;
+}
+.profile_wrapper_username{
+    padding-top: 16px;
+    color: #11142D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+}
+.profile_wrappe_btn{
+    margin-top: 16px;
+    width: 141px;
+    height: 56px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background: #FA3C45;
+    color:#FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+}
+.cars{
+    width: 400px;
+    height: 448px;
+    border-radius: 8px;
+    background: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+}
+.cars_wrapper_title{
+    color:#11142D;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.12px;
+}
+.cars_wrapper_list{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+.cars_wrapper_list_item{
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+}
+.cars_wrapper_item_img{
+    width: 80px;
+    height: 80px;
+
+}
+.cars_wrapper_item_right_name{
+    color: #11142D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; 
+    letter-spacing: 0.08px;
+}
+.cars_wrapper_item_right_price{
+    padding-top: 8px;
+    color:#FA3C45;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0.12px;
+}

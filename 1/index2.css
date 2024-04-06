@@ -1,0 +1,26 @@
+.wr1{
+    color: chartreuse;
+}
+
+.wr2{
+    color: black;
+    text-align: center;
+}
+.container{
+    width: 100%;
+    height: 90%;
+    background: #c3c3c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block{
+    width: 400px;
+    height: 400px;
+}
+.blockGrean{
+    background: green;
+}
+.blockBlue{
+    background: blue;
+}

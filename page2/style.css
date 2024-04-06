@@ -1,0 +1,62 @@
+.header{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 99px;
+    padding-top: 70px;
+    padding-bottom: 90px;
+}
+.link{
+    text-decoration: none;
+    color: #7D7D7D;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.link_active{
+    color: #03A9F4;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 126px 65px;
+}
+.card {
+    width: 428px;
+}
+.card_img{
+    width: 420px;
+    height: 280px;
+}
+.card_category{
+    color: #B4AD9E;
+
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-style: normal;
+     font-weight: 300;
+    line-height: normal;
+    padding-top: 65px;
+}
+.card_title{
+    color: #626262;
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-top: 20px;
+}
+.card_text{
+    padding-top: 25px;
+    color: #626262;
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}

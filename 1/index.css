@@ -1,0 +1,32 @@
+.link{
+    color:#11a31d;
+    text-decoration: none;
+}
+.text1{
+    font-weight: 600;
+    font: size 32px; ;
+    color: #fef7f7;
+    background: #000;
+    text-align: center;
+}
+.text2{
+    font-size: 44px;
+    font-weight: 900;
+    color: aqua;
+    background:#3c21da
+}
+.animalBlok{
+    width: 400px ;
+    background: #7962fd;
+    border: 2px solid #2711a3;
+    border-radius: 6px;
+}
+.animal_title{
+    text-align: center;
+    font-size: 24px;
+    color: #FFF;
+}
+.title{
+    background: #11a31d;
+    text-align: center;
+}
